@@ -1,0 +1,54 @@
+* {
+    box-sizing: border-box;
+}
+
+html {
+    font-family: "Verdana", "Sans-Serif";
+}
+
+body {
+    max-height: 100%;
+    max-width: 100%;
+    margin: auto;
+}
+
+nav {
+    position: absolute;
+    width: 25%;
+    height: 100%;
+    margin: auto;
+    left: 0;
+    background-color: #f1f1f1;
+
+}
+
+nav button {
+    cursor: pointer;
+    display: block;
+    color: black;
+    background-color: transparent;
+    border: 0;
+    outline: none;
+    padding: 0;
+    margin: 0;
+    width: 100%;
+    text-align: left;
+    transition: 0.3s;
+}
+
+nav button:hover {
+    background-color: #ddd;
+}
+
+nav button:active {
+    background-color: #ccc;
+}
+
+main {
+    position: absolute;
+    width: 75%;
+    height: 100%;
+    left: 25%;
+    border: 1px solid red;
+}
+
